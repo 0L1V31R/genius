@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: rgba(70, 73, 107, 0.774);
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+
+.genius{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 85vh;
+    width: 100vw;
+}
+
+.game{
+    align-items: center;
+    background-color: #282e30;
+    border-radius: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 75vh;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1.5%;
+    position: relative;
+    width: 75vh;
+}
+
+.clickable{
+    height: 45%;
+    opacity: 0.25;
+    transition: 0.75s;
+    width: 45%;
+}
+
+.blue{
+    border-radius: 100% 5px 5px 5px;
+    background-color: blue;
+}
+
+.yellow{
+    border-radius: 5px 100% 5px 5px;
+    background-color: yellow;
+}
+
+.red{
+    border-radius: 5px 5px 5px 100%;
+    background-color: red;
+}
+
+.green{
+    border-radius: 5px 5px 100% 5px;
+    background-color: green;
+}
+
+.circle-center{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container{
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+}
+
+.control-center{
+    background-color: #282e30;
+    border-radius: 200px;
+    cursor: pointer;
+    height: 50%;
+    margin: 10px 0;
+    position: relative;
+    width: 50%;
+}
+
+.top-left{
+    border-radius: 100% 5px 5px 5px;
+    background-color: green;
+    padding: 20%;
+    margin: 10% 0 0 10%;
+}
+
+.top-right{
+    border-radius: 5px 100% 5px 5px;
+    background-color: green;
+    padding: 20%;
+    margin: 10% 10% 0 0;
+}
+
+.bottom-left{
+    border-radius: 5px 5px 5px 100%;
+    background-color: green;
+    padding: 20%;
+    margin: 0 0 10% 10%;
+}
+
+.bottom-right{
+    border-radius: 5px 5px 100% 5px;
+    background-color: green;
+    padding: 20%;
+    margin: 0 10% 10% 0;
+}
+
+/*Formantando os textos*/
+.texts{
+    height: 40%;
+    width: 40%;
+    position: absolute;
+}
+
+.results{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.start-stop {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 25%;
+}
+
+.t1-score{
+    text-align: center;
+}
+
+.current-score{
+    text-align: center;
+}
+
+.t2-score{
+    text-align: center;
+}
+
+.best-score{
+    text-align: center;
+}
+
+.active{
+    opacity: 1;
+}
+
+.footer{
+    height: 15vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 1.5em;
+    margin: 0;
+}
